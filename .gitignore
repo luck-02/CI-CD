@@ -1,0 +1,16 @@
+# ───── Dépendances ─────
+node_modules/
+# ───── Logs ─────
+npm-debug.log* yarn-debug.log* pnpm-debug.log* *.log
+# ───── Fichiers d’environnement ─────
+.env .env.*.local
+# ───── Builds / Artifacts ─────
+dist/ build/ out/ coverage/ .eslintcache
+# ───── Cypress ─────
+cypress/screenshots/ cypress/videos/ cypress/downloads/
+# ───── Docker ─────
+docker-compose.override.yml docker-compose.local.yml *.tar *.tgz
+# ───── IDE / OS ─────
+.vscode/ .idea/ *.swp *.swo .DS_Store Thumbs.db
+# ───── Divers ─────
+node-repl-history .npm
