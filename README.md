@@ -1,7 +1,5 @@
 # Projet Express + MariaDB – Pipeline CI/CD
 
-_Généré le 2025-07-07_
-
 Ce dépôt contient une application Express minimaliste avec :
 - Formulaire HTML
 - Base MariaDB
@@ -14,7 +12,7 @@ Ce dépôt contient une application Express minimaliste avec :
 
 ## Installation
 ```bash
-npm ci
+npm i
 docker run --name mariadb -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=testdb -p 3306:3306 -d mariadb
 node fixtures/seed.js
 npm start  # http://localhost:3000
